@@ -31,14 +31,14 @@ nav a{
 
 /* Newest Post Col */
 .newest_post {
-    flex: 70%;
+    flex: 60%;
     padding: 20px;
     background-color: lightslategray;
 }
 
 /*About Me Col */
 .about_me {
-    flex: 30%;
+    flex: 40%;
     padding: 20px;
     background-color: lightslategray;
 
