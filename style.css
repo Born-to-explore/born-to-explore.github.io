@@ -2,7 +2,7 @@
 header {
     text-align: center;
     padding:20px;
-    background-color: antiquewhite;
+    background-color: lightgray;
 }
 header h1 {
     font-size: 50px;
@@ -33,14 +33,14 @@ nav a{
 .newest_post {
     flex: 70%;
     padding: 20px;
-    background-color: #f5f5;
+    background-color: lightslategray;
 }
 
 /*About Me Col */
 .about_me {
     flex: 30%;
     padding: 20px;
-    background-color: red;
+    background-color: lightslategray;
 
 }
 
@@ -93,7 +93,7 @@ footer {
     padding: 30px;
     word-spacing: 10px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: lightgray;
 }
 footer a{
     color: #000000;
