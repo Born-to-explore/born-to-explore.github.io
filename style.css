@@ -1,0 +1,45 @@
+/*Title*/
+header {
+    text-align: center;
+    padding:20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* Mission Navigation */
+.missions h1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+nav {
+    word-spacing: 30px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newest_post {
+    flex: 70%;
+    padding: 20px;
+}
+
+.about_me {
+    flex: 70%;
+    padding: 20px;
+}
+
+.about_me img {
+    width: 120px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about_me h1 {
+    text-align: center;
+}
