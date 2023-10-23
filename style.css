@@ -2,44 +2,100 @@
 header {
     text-align: center;
     padding:20px;
+    background-color: antiquewhite;
+}
+header h1 {
+    font-size: 50px;
 }
 
-*{
-    box-sizing: border-box;
-}
-/* Mission Navigation */
-.missions h1 {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+/*Navigation */
 nav {
     word-spacing: 30px;
     padding: 10px;
+    text-align: center;
+    font-size: 20px
+}
+nav a{
+    color: #000000;
+    text-decoration: none;
 }
 
+/* Two col creation */
+*{
+    box-sizing: border-box;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Newest Post Col */
 .newest_post {
     flex: 70%;
     padding: 20px;
+    background-color: #f5f5;
 }
 
+/*About Me Col */
 .about_me {
-    flex: 70%;
+    flex: 30%;
     padding: 20px;
+    background-color: red;
+
 }
 
-.about_me img {
-    width: 120px;
+.rightMurphy img {
+    width: 60px;
     display: block;
     margin-left: 0;
     margin-right: 0;
+    float: right;
+    animation: flipright 2s linear infinite;
+}
+@keyframes flipright {
+    to{
+        transform: rotateZ(360deg)
+   }
 }
 
+.leftMurphy img {
+    width: 60px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    animation: flipleft 2s linear infinite;
+}
+@keyframes flipleft {
+    to {
+        transform: rotateZ(-360deg);
+    } 
+ }
+
+.title h1 {
+    float: center;
+    font-size: 38px;
+}
+
+.body img {
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+   
 .about_me h1 {
     text-align: center;
+}
+
+footer {
+    padding: 30px;
+    word-spacing: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+footer a{
+    color: #000000;
+    text-decoration: none;
 }
