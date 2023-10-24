@@ -1,0 +1,35 @@
+/*Title*/
+header {
+    text-align: center;
+    padding:20px;
+    background-color: lightgray;
+}
+header h1 {
+    font-size: 50px;
+}
+
+/*Navigation */
+nav {
+    word-spacing: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px
+}
+nav a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+footer {
+    padding: 30px;
+    word-spacing: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+footer a{
+    color: #000000;
+    text-decoration: none;
+}
